@@ -1,0 +1,37 @@
+body
+{
+    font-family: Arial, sans-serif;
+    margin: 10px;
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+    width: 300px;
+}
+
+button
+{
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: antiquewhite;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover
+{
+    background-color: #e0e0e0;
+}    
+
+#error
+{
+    color: red;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+#weatherinfo p{
+    margin: 5px 0;
+}
