@@ -22,7 +22,7 @@ getWeatherBtn.addEventListener("click", () => {
             const lat = position.coords.latitude;
             const lon = position.coords.longitude;
     
-            const weatherApiUrl = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${API_KEY}&units=metric`;
+            const weatherApiUrl = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=$2848f42da81f4c4ab0b133233250707&units=metric`;
     
             fetch(weatherApiUrl)
               .then((response) => {
